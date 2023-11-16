@@ -6,7 +6,7 @@ public class MovingForward : MonoBehaviour
 {
     private float _speed = 2;
     
-    void Update()
+    private void Update()
     {
         transform.Translate(_speed * Time.deltaTime,0,0);
     }

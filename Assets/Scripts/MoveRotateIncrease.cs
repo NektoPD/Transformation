@@ -8,7 +8,7 @@ public class MoveRotateIncrease : MonoBehaviour
     private float _moveSpeedIncrease = 0.001f;
     private float _rotateAngle = 10;
 
-    void Update()
+    private void Update()
     {
         transform.Translate(Vector3.forward * _moveSpeedIncrease);
         transform.Rotate(0, _rotateAngle * Time.deltaTime,0);

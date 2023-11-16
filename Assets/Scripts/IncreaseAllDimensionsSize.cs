@@ -6,8 +6,7 @@ public class IncreaseSize : MonoBehaviour
 {
     [SerializeField] private float _speed;
 
-
-    void Update()
+    private void Update()
     {
         Vector3 scaleChange = new Vector3(_speed * Time.deltaTime, _speed * Time.deltaTime, _speed * Time.deltaTime);
 
